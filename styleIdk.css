@@ -1,4 +1,14 @@
-.center {
-	text-align: center;
-	color: green;
+.zone {
+    cursor:pointer;
+    text-align: center;
+    font-size: 2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    border-color: black;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+	transform: rotate(-2deg);
+	box-shadow: 5px 5px;
 }
